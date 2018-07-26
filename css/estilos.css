@@ -1,3 +1,25 @@
 body{
-	background-color: green;
+	background-color: gray;
+}
+h1{
+	font-family: Verdana;
+}
+h1#titulo{
+	color: blue;
+}
+
+#teste{
+	color:purple;
+}
+
+p.destaque{
+	color: yellow;
+}
+
+.white{
+	color: white;
+}
+
+p.missao{
+	font-family: Arial;
 }
