@@ -34,3 +34,40 @@ body p{
 article > .white{
 	font-variant: small-caps;
 }
+
+/*cores*/
+.caixa1{
+	background-color: blue;
+	color: white;
+}
+
+/* rgb de 0 a 255 sendo r = vermelho, g = verde, b = azul */
+.caixa2{
+	background-color: rgb(255,0,0);
+	color: rgb(0,0,0); 
+}
+
+.caixa3{
+	background-color: rgb(255,200,0);
+	color: rgb(255,255,255);
+}
+
+/* 
+
+	bit.ly/dec2hex ferramenta para converter decimal para hexacimal
+	Os dois primeiros são o vermelho, depois verde, depois azul
+*/
+.caixa4{
+	background-color: #FF00c8;
+	color: #ddFF00;
+}
+
+/* 
+
+abreviando o hexadecimal vermelho, verde, azul
+não precisa decorar os números basta ir no site http://hnl.name/color-schemer-online/
+*/
+.caixa5{
+	background-color: #dF0;
+	color: #000;
+}
