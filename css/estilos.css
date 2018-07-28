@@ -12,11 +12,8 @@ h1#titulo{
 	color:purple;
 }
 
-p.destaque{
-	color: yellow;
-}
-
-.white{
+/* Agrupando css */
+.white, p.missao{
 	color: white;
 }
 
