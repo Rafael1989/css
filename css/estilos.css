@@ -20,3 +20,12 @@ h1#titulo{
 p.missao{
 	font-family: Arial;
 }
+
+/* seletores descendentes */
+.missao strong{
+	color: purple;
+}
+
+body p{
+	font-size: 30px;
+}
