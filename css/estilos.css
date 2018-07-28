@@ -29,3 +29,8 @@ p.missao{
 body p{
 	font-size: 30px;
 }
+
+/* seletores descendentes filhos diretos o sinal de > faz com que só pegue o css em filhos diretos*/
+article > .white{
+	font-variant: small-caps;
+}
