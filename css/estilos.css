@@ -105,3 +105,71 @@ navegador vai procurar na ordem das fontes
 	text-align: justify;
 	text-align: right; 
 }
+
+/* 
+
+ENTENDENDO A PROPRIEDADE DISPLAY 
+INLINE SÓ OCUPA O ESPAÇO QUE PRECISA
+BLOCK OCUPA A LINHA INTEIRA
+EM COMPUTED DÁ PARA VER O CSS QUE ESTÁ NO ELEMENTO
+USER AGENT = NAVEGADOR NO CSS DO F12
+
+*/
+body{
+	font-size: 32px;
+}
+
+.nome-empresa {
+	background-color: pink;
+}
+
+.segmento-empresa{
+	background-color: red;
+}
+
+.curso-html{
+	background-color: #00dd00;
+}
+
+.curso-css{
+	background-color: #fdff11;
+}
+
+.curso-java{
+	background-color: #00dddd;
+}
+
+.curso-bootstrap{
+	background-color: #ee00da;
+}
+
+/* ELEMENTOS COM DISPLAY INLINE NÃO PERMITEM ALTERAR A ALTURA E LARGURA */
+.nome-empresa{
+	display: block;
+	height: 100px;
+	width: 300px;
+}
+
+.segmento-empresa{
+	/* ELEMENTO CONTINUA EXISTINDO MAS FICA ESCONDIDO */
+	display: none;
+}
+
+/* altura e largura não funcionam em display inline 
+
+DISPLAY PADRÃO DE P, DIV É BLOCK
+DISPLAY PADRÃO DE LINK É INLINE
+
+*/
+.curso-html, .curso-css{
+	display: inline;
+	height: 100px;
+	width: 300px;
+}
+
+.curso-java, .curso-bootstrap{
+	/*INLINE-BLOCK DEIXA ALTERAR ALTURA E LARGURA E FICA LADO A LADO */
+	display: inline-block;
+	height: 100px;
+	width: 300px;
+}
