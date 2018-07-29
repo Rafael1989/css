@@ -71,3 +71,37 @@ não precisa decorar os números basta ir no site http://hnl.name/color-schemer-
 	background-color: #dF0;
 	color: #000;
 }
+
+/* FORMATAÇÃO DE TEXTOS 
+
+serif = grupo de fontes com serifa
+sans-serif = grupo de fontes sem serifa
+navegador vai procurar na ordem das fontes
+
+*/
+.nome{
+	color: #f00;
+	font-size: 24px;
+	font-family: "Trebuchet MS", sans-serif;
+	font-style: italic;
+	font-weight: normal;
+	/* fazer tudo de uma vez */
+	font: italic bold 24px "Trebuchet MS", sans-serif;
+	/* risca o texto */
+	text-decoration: line-through;
+	text-align: left;
+}
+
+.segmento{
+	font-family: Palatino, serif;
+	font-style: normal;
+	font-weight: bold;
+	/* deixa sem nada */
+	text-decoration: none;
+	/* sublinha */
+	text-decoration: underline;
+	/* O ALINHAMENTO É SEMPRE EM RELAÇÃO AO PAI */
+	text-align: center;
+	text-align: justify;
+	text-align: right; 
+}
