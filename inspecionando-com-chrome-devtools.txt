@@ -1,0 +1,3 @@
+1- Aperte F12
+2- Teste o css
+3- Aplique em sua aplicação
