@@ -270,4 +270,41 @@ p{
 .frase2{
 	/* auto centraliza o elemento */
 	margin: 0 auto;
+}	
+
+/* 
+
+TRABALHANDO COM BOX MODEL E BOX SIZING 
+
+*/
+/*SELECIONA TODOS ELEMENTOS*/
+*{
+	box-sizing: border-box;
+}
+.frase1BoxModel, .frase2BoxModel, .referencia{
+	width: 500px;
+	text-align: justify;
+	background-color: yellow;
+}
+
+p{
+	margin: 10px;
+}
+
+.referencia{
+	background-color: blue;
+	height: 20px;
+}
+
+.frase1BoxModel{
+	/* padding, border aumentam a largura e altura*/
+	box-sizing: content-box;
+	padding: 20px;
+	border: 10px solid red;
+}
+
+.frase2BoxModel{
+	/* a borda, padding não aumenta a largura e altura da caixa */
+	box-sizing: border-box;
+	border: 20px solid red;
 }
