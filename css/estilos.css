@@ -173,3 +173,35 @@ DISPLAY PADRÃO DE LINK É INLINE
 	height: 100px;
 	width: 300px;
 }
+
+/* TRABALHANDO COM BORDAS */
+
+a{
+	/*borda fina*/
+	border-width: thin;
+	/*borda grossa*/
+	border-width: thick;
+	border-width: medium;
+	border-color: red;
+	border-style: solid;
+	border-style: dashed;
+	border-style: dotted;
+	/*tudo de uma vez */
+	border: thick blue solid;
+	border-bottom: 5px dotted #0f0;
+	border-right: 5px dotted #0f0;
+}
+
+p{
+	width: 300px;
+	height: 300px;
+	border: 5px solid black;
+	/* primeiro é top-left e bottom right e o segundo top right e bottom left*/
+	border-radius: 70px 20px;
+	/* top left -> top right -> bottom right -> bottom left*/
+	border-radius: 0px 10px 50px 100px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+
+	background-color: #ccc;
+}
