@@ -205,3 +205,24 @@ p{
 
 	background-color: #ccc;
 }
+
+/* 
+
+TRABALHANDO COM PADDING 
+PADDING É A DISTÂNCIA ENTRE O CONTEÚDO E A BORDA
+PADDING SOMA COM A LARGURA DA BORDA E A JA DEFINIDA
+
+*/
+
+p{
+	text-align: justify;
+	width: 500px;
+	border: 3px solid red;
+	background-color: yellow;
+	/* top bottom e left right*/
+	padding: 20px 50px;
+	padding-left: 200px;
+	padding-right: 300px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
